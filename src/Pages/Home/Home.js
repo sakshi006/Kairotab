@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 
-const Home = () => {
+export const Home = () => {
   const [user, setUser] = useState("");
 
   const handleChange = (e) => {
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-text">
-        <h2>Hey there! What may I call you ?</h2>
+        <h2>Hey there! What should I call you ?</h2>
         <input
           type="text"
           onChange={(e) => handleChange(e)}
@@ -39,5 +39,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
