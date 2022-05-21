@@ -1,12 +1,18 @@
 import React from "react";
-import { Weather } from "../Weather/Weather";
+import "./Landingpage.css"
+import { Weather, Time, Stackoverflow, Quotes, GoogleSearch, MyntraSearch } from "../../Components";
 
 export const LandingPage = () => {
   return (
     <>
-      <div className="Home-container">
-        <div className="Home-text ">
+      <div className="home-container">
+        <div className="home-text">
+          <Time />
           <Weather />
+          <Quotes/>
+          <GoogleSearch/>
+          <Stackoverflow/>
+          <MyntraSearch/>
         </div>
       </div>
     </>

@@ -9,7 +9,7 @@ function App() {
     setExistingUser(user);
   }, [existingUser]);
   
-  return <>{existingUser ? <LandingPage /> : <Home />}</>;
+  return <>{ existingUser? <LandingPage/> : <Home />}</>;
 }
 
 export default App;

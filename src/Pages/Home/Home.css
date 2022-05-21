@@ -1,67 +1,69 @@
-.home-container{
-    height: 100vh;
-    width: 100vw;
-    background: url(https://source.unsplash.com/random/?sky/1366×768) center center/cover no-repeat;
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://source.unsplash.com/random/?nature/1366×768) center
+    center/cover no-repeat;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-.home-text{
-    height: 100%;
-    width: 100%;
-    background-color: #00000065;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.home-text {
+  height: 100%;
+  width: 100%;
+  background-color: #00000065;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.home-container h2{
-    color: #fff;
-    font-size: 5rem;
-    text-align: center;
-    margin-top: 10rem;
-}
-.home-container input{
-    width: 31.25rem;
-	padding: 0.5rem 1rem;
-	margin-bottom: 3rem;
-    letter-spacing: 1px;
-	background-color: transparent;
-	outline: none;
-	border: none;
-    border-bottom: 3px solid #fff;
-	font-size: 2.5rem;
-	color: #fff;
-	text-align: center;
-}
-.home-container button{
-    width: 10rem;
-    height: 3rem;
-    border-radius: 520px;
-    border: none;
-    background-color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    margin-top: 2rem;
-}
-.home-container button:hover{
-    background-color: #f5f0f0;
+.home-container h2 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
 }
 
+.home-container input {
+  width: 31.25rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #fff;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+.home-container button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 520px;
+  border: none;
+  background-color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.home-container button:hover {
+  background-color: #f5f0f0;
+}
 
 /* mobile------ */
 
-
-@media (max-width: 480px)  {
-    .home-container h1{
-        font-size: 2rem;
-        margin-top: 8rem;
-        padding: 0 2rem;
-    }
-    .home-container input{
-        width: 75%;
-        margin-top: 2rem;
-    }
-    .home-container button{
-        margin-top: 4rem;
-    }
+@media (max-width: 480px) {
+  .home-container h1 {
+    font-size: 2rem;
+    margin-top: 8rem;
+    padding: 0 2rem;
+  }
+  .home-container input {
+    width: 75%;
+    margin-top: 2rem;
+  }
+  .home-container button {
+    margin-top: 4rem;
+  }
 }

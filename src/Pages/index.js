@@ -1,5 +1,4 @@
-import {Home} from "./Home/Home"
-import {LandingPage} from "./LandingPage/Landingpage"
-import {Weather} from "./Weather/Weather"
+import { Home } from "./Home/Home";
+import { LandingPage } from "./LandingPage/Landingpage";
 
-export {Home, LandingPage, Weather}
+export { Home, LandingPage };

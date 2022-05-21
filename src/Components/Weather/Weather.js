@@ -5,11 +5,11 @@ import './Weather.css'
 const API_KEY = "86d6ab5391472bbdb665c6785ba5769a";
 export const Weather = () => {
     const [weather, setWeather] = useState({
-        city: "",
+        city: "Delhi",
         degrees: 0,
         weatherIcon: "",
         humidity: 0,
-        description: "",
+        description: "Sunny",
     });
     const getAPI = (lat, lon) => {
         let API = "";
