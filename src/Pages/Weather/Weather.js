@@ -24,12 +24,13 @@ export const Weather = () => {
         const API = getAPI(lat, lon);
         try {
             const res = await axios.get(API);
+            const weatherInfo = res.data
             setWeather({
-                city: res.data.name,
-                degrees: Math.round(res.data.main.temp - 273.15),
-                weatherIcon: res.data.weather[0].icon,
-                humidity: res.data.main.humidity,
-                description: res.data.weather[0].description,
+                city: weatherInfo.name,
+                degrees: Math.round(weatherInfo.main.temp - 273.15),
+                weatherIcon: weatherInfo.weather[0].icon,
+                humidity: weatherInfo.main.humidity,
+                description: weatherInfo.weather[0].description,
             });
         } catch (err) {
             alert(err)
