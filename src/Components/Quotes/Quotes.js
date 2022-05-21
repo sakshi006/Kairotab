@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export const Quotes = () => {
-    const [quote, setQuote] = useState();
+    const [quote, setQuote] = useState("Where there is a will, there is a way !");
     useEffect(() => {
         const random = Math.floor(Math.random() * 1643 - 1);
         (async () => {

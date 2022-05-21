@@ -3,6 +3,7 @@ import { Time } from "../Components/Time/Time";
 import { Stackoverflow } from "../Components/Stackoverflow/Stackoverflow";
 import { Quotes } from "../Components/Quotes/Quotes";
 import { GoogleSearch } from "../Components/GoogleSearch/GoogleSearch";
+import { MyntraSearch } from "./Myntra/MyntraSearch";
 
 export {
   Weather,
@@ -10,4 +11,5 @@ export {
   Stackoverflow,
   Quotes,
   GoogleSearch,
+  MyntraSearch
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Landingpage.css"
-import { Weather, Time, Stackoverflow, Quotes, GoogleSearch } from "../../Components";
+import { Weather, Time, Stackoverflow, Quotes, GoogleSearch, MyntraSearch } from "../../Components";
 
 export const LandingPage = () => {
   return (
@@ -12,6 +12,7 @@ export const LandingPage = () => {
           <Quotes/>
           <GoogleSearch/>
           <Stackoverflow/>
+          <MyntraSearch/>
         </div>
       </div>
     </>

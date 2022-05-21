@@ -7,7 +7,7 @@
 
 }
 .google-container input{
-    width: 12rem;
+    width: 11rem;
     font-size: 1rem;
     border-bottom: 2px solid #fff;
     color: #fff;
@@ -24,11 +24,23 @@
     background-color: transparent;
 }
 .stack-overflow{
-    left: 22rem;
+    top: 5rem;
     display: flex;
     align-items: center;
 
 }
+ 
+.myntra{
+    top : 10rem;
+    display: flex;
+    align-items: center;
+}
 #icon{
     margin-bottom: 5rem;
 }
+
+::placeholder {
+    color: white;
+    opacity: 0.4; /* Firefox */
+  }
+  

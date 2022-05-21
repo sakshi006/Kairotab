@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 export const Time = () => {
-    const [user, setUser] = useState("");
+    const [user, setUser] = useState("guest");
     const [currentDate, setCurrentDate] = useState(new Date());
 
 	useEffect(() => {

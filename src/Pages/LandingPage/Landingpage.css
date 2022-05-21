@@ -18,7 +18,8 @@
     letter-spacing: 1px;
     font-size: 1.5rem;
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
+    max-width: 70%;
 }
 @media (max-width: 480px){
     .time-container{
