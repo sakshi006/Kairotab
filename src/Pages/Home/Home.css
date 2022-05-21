@@ -1,7 +1,10 @@
 .home-container{
     height: 100vh;
     width: 100vw;
-    background: url(https://source.unsplash.com/random/?sky/1366×768) center center/cover no-repeat;
+    background: url(https://source.unsplash.com/random/?nature/1366×768) center center/cover no-repeat;
+    
+  font-family: "Permanent Marker", cursive;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .home-text{
@@ -13,11 +16,10 @@
     align-items: center;
 }
 
-.home-container h2{
+.home-container h1{
     color: #fff;
     font-size: 5rem;
     text-align: center;
-    margin-top: 10rem;
 }
 .home-container input{
     width: 31.25rem;

@@ -1,0 +1,27 @@
+
+.time-container{
+    color: #fff;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+.greet-user-container{
+    color: #fff;
+    font-size: 3rem;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    opacity: 0.5;
+    border-radius: 1rem;
+}
+.quotes-section{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 50px;
+}
+@media (max-width: 480px){
+    .time-container{
+        margin-top: 12rem;
+    }
+}

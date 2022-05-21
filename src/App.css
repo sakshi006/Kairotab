@@ -5,6 +5,8 @@
 }
 
 .App {
-  font-family: "Permanent Marker", cursive;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+body{
+  user-select: none;
 }
